@@ -1,0 +1,96 @@
+/* Fundo principal */
+body, .App {
+  background-color: #1a1a2e;
+  color: #f8f8f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+creepster-regular {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Título do site */
+h1 {
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 3em;
+  color: #ff7518;
+  text-shadow: 2px 2px #800080;
+  margin-bottom: 10px;
+}
+
+/* Descrição */
+p {
+  color: #b0a8b9;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Caixa de texto */
+textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ff7518;
+  background-color: #333;
+  color: #fffcf5;
+}
+
+/* Botão */
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #800080;
+  color: #f8f8f2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d6336c;
+}
+
+/* Centralizando o contêiner */
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Caixa da história */
+.story {
+  font-family: "Bona Nova SC", serif;
+  margin-top: 30px;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fffcf5;
+  border: 2px solid #800080;
+  box-shadow: 0 0 10px #d6336c;
+}
+
+/* Texto da história */
+.story h2 {
+  font-size: 1.5em;
+  color: #ff7518;
+}
+
+.story p {
+  font-size: 1.2em;
+  color: #f5f5f5;
+}
+
