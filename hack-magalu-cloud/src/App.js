@@ -19,9 +19,9 @@ function App() {
       const stream = client.chatCompletionStream({
         model: "meta-llama/Llama-3.2-3B-Instruct",
         messages: [
-          { role: "user", content: 'Escreva uma história de terror com os seguintes elementos: ${inputText}' }
+          { role: "user", content: `Escreva uma história de terror com os seguintes elementos: ${inputText}` }
         ],
-        max_tokens: 800,
+        max_tokens: 100,
         temperature:0.6,
         top_p:0.9
       });
